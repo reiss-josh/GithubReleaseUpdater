@@ -12,14 +12,16 @@ If the downloaded release is a .zip file, it will automatically be extracted, an
 Here's an example of downloading my submission to the Extra Credits Game Jam 6:
 | Command-Line | Interactive
 | --- | --- |
-| <img src = "img/cmdline_example.png"> | <img src = "img/noarg_example.png"> |
+| <img src = "img/cmdline_example.png" width = "700"> | <img src = "img/noarg_example.png" width = "700"> |
 
 There are two example batch files included in /batchtester.
 If you place this the contents of this repository in a folder, you can use batchtester to make an easy installer for your github releases.
 
 For example:
 I could put this repo in a folder, then place a batch file with the following contents outside:
-```@echo off
+```
+@echo off
 python ./main.py reiss-josh romset_cleaner "C:\Documents\Romset_Cleaner"
-pause```
+pause
+```
 And I've suddenly created an easy installer for my romset_cleaner repository.
